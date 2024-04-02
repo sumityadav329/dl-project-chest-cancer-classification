@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chest Cancer Classification</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body { background-color: #eff2f9; }
+        h3 { color: #1b2d6b; font-size: 30px; font-weight: 700; text-align: center; margin-top: 20px; }
+        .image-container { width: 100%; text-align: center; margin-top: 20px; }
+        .image-preview { max-width: 100%; max-height: 300px; border: 1px solid #1b2d6b; margin: 0 auto; display: block; }
+        .button-container { text-align: center; margin-top: 20px; }
+        .btn { margin: 0 5px; }
+        .result-container { border: 1px solid #dedede; height: 310px; overflow: auto; margin-top: 20px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Chest Cancer Classification</h3>
+        <div class="image-container">
+            <img src="" id="photo" class="image-preview" style="display:none;">
+            <video autoplay id="video" poster="https://img.freepik.com/free-vector/group-young-people-posing-photo_52683-18824.jpg?size=338&ext=jpg" class="image-preview"></video>
+        </div>
+        <div class="button-container">
+            <button type="button" class="btn btn-primary" id="uload">Upload</button>
+            <button type="button" class="btn btn-success" id="send">Predict</button>
+        </div>
+        <div class="result-container"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript code for uploading and processing images or videos goes here
+    </script>
+</body>
+</html>
